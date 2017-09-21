@@ -6,32 +6,25 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
-    <!-- INSERT TITLE -->
+    <title>Roman Numeral Converter</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1></h1>
-        <!-- INSERT HEADER -->
-        <form class="form-group">
-          <label for=""></label>
-          <input type="text" name="" value="">
-          <!-- INSERT LABEL:for and text && INPUT: name/ID/value -->
-          <button class="btn" type="submit" name="button"></button>
+        <h1>Roman Numeral Converter</h1>
+        <br>
+        <form id="userForm" class="form-group">
+          <label for="userInput">Enter the number you wish to convert:</label>
+          <input id="userInput" class="form-control" type="number">
+          <br>
+          <button class="btn btn-black" type="submit" name="button">Convert!</button>
         </form>
 
-        <div id="">
-          <!--INSERT ID FOR OUTPUT -->
+        <div id="output">
+          <p>Your roman numeral is: <span></span></p>
         </div>
 
       </div>
     </div>
   </body>
 </html>
-
-
-<!-- LIVE SERVER -->
-<!-- STEP ONE: Clone from https://github.com/tapio/live-server -->
-<!-- STEP TWO: Install: Type "npm install -g live-server" -->
-<!-- STEP THREE: Initiate live-server: Type "live-server" in terminal after enabling-->

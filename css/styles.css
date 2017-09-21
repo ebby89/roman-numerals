@@ -1,0 +1,26 @@
+#output {
+  display: none;
+}
+
+body {
+  text-align: center;
+  background-color: gray;
+  background-image: url(../roman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+form, p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
